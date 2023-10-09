@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+   Filename: sp_table.css
+*/
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid #0084bf;
+    border-collapse: collapse;
+    width: 90%;
+    box-shadow: 5px 10px 18px #CE1126;
+    background-image: url("milkyway.jpg");
+    }
+
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    vertical-align: top left;
+    }
+
+caption{
+    font-size: 1.5em;
+    text-align: right;
+}
+col#times{
+background-color: yellow;
+width: 150px;
+}
+
+col#days{
+width: 75px;
+}
+
+thead{
+    color: white;
+background-color: #CE1126;
+}
+ 
+td{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
